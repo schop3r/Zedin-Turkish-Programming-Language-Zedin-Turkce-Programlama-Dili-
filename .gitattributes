@@ -2,3 +2,14 @@
 *.zed linguist-detectable=true
 zedin_v5.cpp linguist-vendored=true
 Bytecode.h linguist-vendored=true
+
+# 1. C++ kodlarını (mutfağı) gizle
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
+
+# 2. .zed dosyalarını GitHub'ın tanıdığı ama senin diline yakın bir dille maskele
+# Ben 'V' dilini veya 'Crystal'ı öneririm; hem renkleri güzeldir hem de isimleri kısa/havalıdır.
+# Amaç burada barın adını 'Zed' yapmak değil, C++'ı yok edip barın tamamını tek renk yapmak.
+*.zed linguist-language=V
+
